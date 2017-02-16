@@ -76,6 +76,7 @@
       function showInfo(data, tabletop) {
         var HTMLBlob;
         data.forEach(function(data, i) {
+          console.log(data[i].logo);
           HTMLBlob += '<div class="row">';
           if( data[i].inspiration == "" ) {
             HTMLBlob += '<div class="col-xs-12>';
