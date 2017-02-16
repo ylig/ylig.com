@@ -75,18 +75,18 @@
 
       function showInfo(data, tabletop) {
         var HTMLBlob;
-        data.forEach(function(data, i) {
-          console.log(i);
+        
+        for( var i=0; i < data.length; i++ {
           HTMLBlob += '<div class="row">';
           if( data[i].inspiration == "" ) {
             HTMLBlob += '<div class="col-xs-12>';
-            HTMLBlob += '<img src="' + data + '">';
+            HTMLBlob += '<img src="' + data[i].logo + '">';
             HTMLBlob += '</div>';
           } else {
             HTMLBlob += '<div class="col-xs-6">';
-            HTMLBlob += '<img src="' + data + '">';
+            HTMLBlob += '<img src="' + data[i].logo + '">';
             HTMLBlob += '</div><div class="col-xs-6">';
-            HTMLBlob += '<img src="' + data[i].inspiration + '">';
+            HTMLBlob += '<img src="' + data[i].inspirationo + '">';
             HTMLBlob += '</div>';
           }
           HTMLBlob += '</div>';
