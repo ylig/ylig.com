@@ -76,9 +76,8 @@
       function showInfo(data, tabletop) {
         console.log(data);
         document.getElementById("logos").innerHTML = 
-            "<img src=\"" + data[0].logo + "\">
-          + "<img src=\"" + data[0].inspiration + "\">;
-//          + [ data[0].Name, data[1].Name, data[2].Name ].join(", ");
+            '<img src="' + data[0].logo + '"><br>'
+          + '<img src="' + data[0].inspiration + '"><br><br><br>';
       }
 
       window.addEventListener('DOMContentLoaded', init)
