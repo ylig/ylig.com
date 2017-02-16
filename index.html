@@ -17,10 +17,6 @@
     <!-- Custom styles for this template -->
     <link href="style.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -69,7 +65,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
     <script type='text/javascript'>    
-      var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1ErSbU7XfwQ0MAWWMgAltJlmmxtpXhjVRpqmXYvcp-6I/pubhtml';
+      var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1ErSbU7XfwQ0MAWWMgAltJlmmxtpXhjVRpqmXYvcp-6I/pub?gid=0&single=true&output=csv';
 
       function init() {
         Tabletop.init( { key: publicSpreadsheetUrl,
@@ -80,7 +76,7 @@
       function showInfo(data, tabletop) {
         console.log(data);
         document.getElementById("logos").innerHTML = 
-            "<strong>Logo:</strong> " + data[0].genital_logo;
+            "<strong>Logo:</strong> " + data[1].genital_logo;
 //          + [ data[0].Name, data[1].Name, data[2].Name ].join(", ");
       }
 
