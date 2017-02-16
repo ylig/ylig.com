@@ -78,9 +78,9 @@
         
         data.forEach(function(logo, inspiration) {
           console.log('logo: '+logo+'; inspo: '+inspiration);
-          HTMLBlob += '<div class="row">'+
-                      '<img src="' + logo + '"><br>' + '<img src="' + inspiration + '"><br><br><br>'+
-                      '</div>';
+          HTMLBlob += '<div class="row">';
+          HTMLBlob += '<img src="' + logo + '"><br>' + '<img src="' + inspiration + '"><br><br><br>';
+          HTMLBlob += '</div>';
         }); 
         
         document.getElementById("logos").innerHTML = HTMLBlob;
