@@ -23,6 +23,10 @@ h1 {
   margin-bottom: 2em;
 }
 
+.social {
+  line-height: 10px;
+}
+
 .social__button {
   display: inline-block;
 }
