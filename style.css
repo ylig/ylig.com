@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Haversack-Doughboy';
+  src:  url('fonts/Haversack-Doughboy-Semibold-Rounded.eot?') format('eot'),
+        url('fonts/Haversack-Doughboy-Semibold-Rounded.woff2') format('woff2'),
+        url('fonts/Haversack-Doughboy-Semibold-Rounded.woff') format('woff'),
+        url('fonts/Haversack-Doughboy-Semibold-Rounded.ttf') format('truetype');
+}
+
 body {
   padding-top: 50px;
 }
@@ -7,4 +15,27 @@ body {
 }
 .row {
   padding-bottom: 100px;
+}
+
+h1 {
+  font-family: Haversack-Doughboy;
+  text-transform: uppercase;
+}
+
+.header {
+  padding: 30px 0;
+  margin-bottom: 30px;
+}
+
+.site-logo {
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
 }
