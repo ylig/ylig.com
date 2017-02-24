@@ -20,6 +20,16 @@ body {
 h1 {
   font-family: Haversack-Doughboy;
   text-transform: uppercase;
+  margin-bottom: 2em;
+}
+
+.social {
+  line-height: 10px;
+}
+
+.social__button {
+  display: inline-block;
+  margin: 0 10px;
 }
 
 .header {
