@@ -29,6 +29,7 @@ h1 {
 
 .social__button {
   display: inline-block;
+  margin: 0 10px;
 }
 
 .header {
